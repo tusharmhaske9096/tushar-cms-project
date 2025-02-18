@@ -1,0 +1,90 @@
+@media(max-width:1002px) {
+    .mat-standard-chip {
+        padding: 3px 6px !important;
+        height: auto !important
+    }
+}
+
+.mat-standard-chip {
+    padding: 0px 9px !important;
+    border-radius: 13px !important;
+    min-height: 27px !important;
+    font-size: 11px !important;
+}
+
+td{
+    text-align: center !important;
+}
+
+th{
+    text-align: center !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgb(198 230 245) !important;
+}
+
+.mat-form-field {
+    width: 100% !important;
+}
+
+
+form {
+    width: 100%;
+}
+
+.submit {
+    background-color: var(--project-color-primary) !important;
+    color: #495057;
+    padding: 3px 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.controls {
+    background: #d5eae9;
+    padding: 1px 15px;
+}
+
+.generate-report{
+    background-color: #495057 !important;
+    color: #ffffff;
+}
+
+.date-picker{
+    width: 100%;
+    margin-left: 2px;
+}
+
+.actions{
+    position: relative;
+    top: 24px;
+}
+.isRequiredAsterik{
+    color: red;
+}
+
+.form-control {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--project-color-primary) !important;
+    outline: 0;
+    box-shadow: inset 0px 0px 3px 1px rgb(27 40 53 / 25%);
+    font-style: italic;
+}
+
+.form-control.invalid{
+    border-color: #de0606 !important;
+    box-shadow: inset 0px 0px 3px 1px rgb(187 16 79 / 25%);
+}
+.error-container {
+}
+
+.error-message {
+    color: #de0606;
+    display: block;
+    font-size: 13px;
+}
+
+.form-control {
+    height: 27px;
+}
